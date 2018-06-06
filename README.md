@@ -1,5 +1,6 @@
-# SpeechDetector for iOS
+# SpeechDetector
+Continuous speech detection for iOS using Tyrolabs TLSphinx 
+https://github.com/tryolabs/TLSphinx
 
-A continuous speech detector built with Tyrolabs TLSphinx 
 
-MIT License 
+MIT License
