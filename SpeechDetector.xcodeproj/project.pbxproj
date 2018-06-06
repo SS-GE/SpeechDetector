@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AEAF923F20C86D330039F4E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAF923E20C86D330039F4E0 /* AppDelegate.swift */; };
+		AEAF924120C86D330039F4E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAF924020C86D330039F4E0 /* ViewController.swift */; };
+		AEAF924420C86D330039F4E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEAF924220C86D330039F4E0 /* Main.storyboard */; };
+		AEAF924620C86D350039F4E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEAF924520C86D350039F4E0 /* Assets.xcassets */; };
+		AEAF924920C86D350039F4E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEAF924720C86D350039F4E0 /* LaunchScreen.storyboard */; };
+		AEAF925920C86D640039F4E0 /* TLSphinx.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEAF925620C86D430039F4E0 /* TLSphinx.framework */; };
+		AEAF925A20C86D640039F4E0 /* TLSphinx.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AEAF925620C86D430039F4E0 /* TLSphinx.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AEAF925520C86D430039F4E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEAF925020C86D430039F4E0 /* TLSphinx.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9B5187AF1B18E1E80000E78D;
+			remoteInfo = TLSphinx;
+		};
+		AEAF925720C86D430039F4E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEAF925020C86D430039F4E0 /* TLSphinx.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9B5187BA1B18E1E80000E78D;
+			remoteInfo = TLSphinxTests;
+		};
+		AEAF925B20C86D640039F4E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEAF925020C86D430039F4E0 /* TLSphinx.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B5187AE1B18E1E80000E78D;
+			remoteInfo = TLSphinx;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AEAF925D20C86D640039F4E0 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				AEAF925A20C86D640039F4E0 /* TLSphinx.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AEAF923B20C86D330039F4E0 /* SpeechDetector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeechDetector.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEAF923E20C86D330039F4E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AEAF924020C86D330039F4E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AEAF924320C86D330039F4E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AEAF924520C86D350039F4E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AEAF924820C86D350039F4E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AEAF924A20C86D350039F4E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEAF925020C86D430039F4E0 /* TLSphinx.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TLSphinx.xcodeproj; path = TLSphinx/TLSphinx.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AEAF923820C86D330039F4E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEAF925920C86D640039F4E0 /* TLSphinx.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AEAF923220C86D330039F4E0 = {
+			isa = PBXGroup;
+			children = (
+				AEAF925020C86D430039F4E0 /* TLSphinx.xcodeproj */,
+				AEAF923D20C86D330039F4E0 /* SpeechDetector */,
+				AEAF923C20C86D330039F4E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AEAF923C20C86D330039F4E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEAF923B20C86D330039F4E0 /* SpeechDetector.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AEAF923D20C86D330039F4E0 /* SpeechDetector */ = {
+			isa = PBXGroup;
+			children = (
+				AEAF923E20C86D330039F4E0 /* AppDelegate.swift */,
+				AEAF924020C86D330039F4E0 /* ViewController.swift */,
+				AEAF924220C86D330039F4E0 /* Main.storyboard */,
+				AEAF924520C86D350039F4E0 /* Assets.xcassets */,
+				AEAF924720C86D350039F4E0 /* LaunchScreen.storyboard */,
+				AEAF924A20C86D350039F4E0 /* Info.plist */,
+			);
+			path = SpeechDetector;
+			sourceTree = "<group>";
+		};
+		AEAF925120C86D430039F4E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEAF925620C86D430039F4E0 /* TLSphinx.framework */,
+				AEAF925820C86D430039F4E0 /* TLSphinxTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AEAF923A20C86D330039F4E0 /* SpeechDetector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEAF924D20C86D350039F4E0 /* Build configuration list for PBXNativeTarget "SpeechDetector" */;
+			buildPhases = (
+				AEAF923720C86D330039F4E0 /* Sources */,
+				AEAF923820C86D330039F4E0 /* Frameworks */,
+				AEAF923920C86D330039F4E0 /* Resources */,
+				AEAF925D20C86D640039F4E0 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEAF925C20C86D640039F4E0 /* PBXTargetDependency */,
+			);
+			name = SpeechDetector;
+			productName = SpeechDetector;
+			productReference = AEAF923B20C86D330039F4E0 /* SpeechDetector.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AEAF923320C86D330039F4E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = mainvolume;
+				TargetAttributes = {
+					AEAF923A20C86D330039F4E0 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+				};
+			};
+			buildConfigurationList = AEAF923620C86D330039F4E0 /* Build configuration list for PBXProject "SpeechDetector" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AEAF923220C86D330039F4E0;
+			productRefGroup = AEAF923C20C86D330039F4E0 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = AEAF925120C86D430039F4E0 /* Products */;
+					ProjectRef = AEAF925020C86D430039F4E0 /* TLSphinx.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				AEAF923A20C86D330039F4E0 /* SpeechDetector */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		AEAF925620C86D430039F4E0 /* TLSphinx.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = TLSphinx.framework;
+			remoteRef = AEAF925520C86D430039F4E0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AEAF925820C86D430039F4E0 /* TLSphinxTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = TLSphinxTests.xctest;
+			remoteRef = AEAF925720C86D430039F4E0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AEAF923920C86D330039F4E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEAF924920C86D350039F4E0 /* LaunchScreen.storyboard in Resources */,
+				AEAF924620C86D350039F4E0 /* Assets.xcassets in Resources */,
+				AEAF924420C86D330039F4E0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AEAF923720C86D330039F4E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEAF924120C86D330039F4E0 /* ViewController.swift in Sources */,
+				AEAF923F20C86D330039F4E0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AEAF925C20C86D640039F4E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TLSphinx;
+			targetProxy = AEAF925B20C86D640039F4E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AEAF924220C86D330039F4E0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEAF924320C86D330039F4E0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AEAF924720C86D350039F4E0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEAF924820C86D350039F4E0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AEAF924B20C86D350039F4E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AEAF924C20C86D350039F4E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AEAF924E20C86D350039F4E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SpeechDetector/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mainvolume.SpeechDetector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AEAF924F20C86D350039F4E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SpeechDetector/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mainvolume.SpeechDetector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AEAF923620C86D330039F4E0 /* Build configuration list for PBXProject "SpeechDetector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEAF924B20C86D350039F4E0 /* Debug */,
+				AEAF924C20C86D350039F4E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEAF924D20C86D350039F4E0 /* Build configuration list for PBXNativeTarget "SpeechDetector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEAF924E20C86D350039F4E0 /* Debug */,
+				AEAF924F20C86D350039F4E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AEAF923320C86D330039F4E0 /* Project object */;
+}
